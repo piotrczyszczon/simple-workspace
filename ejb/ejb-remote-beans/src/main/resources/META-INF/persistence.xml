@@ -1,0 +1,7 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence">
+    <persistence-unit name="configuration" transaction-type="JTA">
+        <jta-data-source>java:/pc-jpa-db</jta-data-source>
+
+        <class>com.github.piotrczyszczon.simpleworkset.ejb.remote.transaction.dao.ItemsTable</class>
+    </persistence-unit>
+</persistence>

@@ -41,7 +41,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <addClassPath>true</addClassPath>
+                            <addClasspath>true</addClasspath>
                         </manifest>
                     </archive>
                 </configuration>
