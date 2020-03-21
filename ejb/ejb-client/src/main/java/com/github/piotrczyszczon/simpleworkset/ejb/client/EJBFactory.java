@@ -23,7 +23,7 @@ public class EJBFactory
 
   public static CounterRemote lookupCounterBean() throws NamingException
   {
-    return (CounterRemote) lookup("CounterBean!com.github.piotrczyszczon.simpleworkset.ejb.remote.CounterRemote!stateful");
+    return (CounterRemote) lookup("CounterBean!com.github.piotrczyszczon.simpleworkset.ejb.remote.CounterRemote?stateful");
   }
 
   public static ListAppendingRemote lookupListAppendingBean() throws NamingException

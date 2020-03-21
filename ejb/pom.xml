@@ -11,9 +11,9 @@
 
 
     <modules>
-        <module>ejb-client</module>
-        <module>ejb-remote-beans</module>
         <module>ejb-remote-interface</module>
+        <module>ejb-remote-beans</module>
+        <module>ejb-client</module>
     </modules>
 
     <dependencyManagement>

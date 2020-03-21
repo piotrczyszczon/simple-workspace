@@ -206,7 +206,7 @@
         </subsystem>
         <subsystem xmlns="urn:jboss:domain:ee:5.0">
             <global-modules>
-                <module name="com.github.piotrczyszczon.simpleworkspace.global" slot="main"/>
+                <module name="com.github.piotrczyszczon.simpleworkspace.global.module" slot="main"/>
             </global-modules>
             <spec-descriptor-property-replacement>false</spec-descriptor-property-replacement>
             <concurrent>
@@ -245,6 +245,10 @@
                 <stateful default-access-timeout="5000" cache-ref="simple" passivation-disabled-cache-ref="simple"/>
                 <singleton default-access-timeout="5000"/>
             </session-bean>
+            <mdb>
+                <resource-adapter-ref resource-adapter-name="${ejb.resource-adapter-name:activemq-ra.rar}"/>
+                <bean-instance-pool-ref pool-name="mdb-strict-max-pool"/>
+            </mdb>
             <pools>
                 <bean-instance-pools>
                     <strict-max-pool name="mdb-strict-max-pool" derive-size="from-cpu-count"
