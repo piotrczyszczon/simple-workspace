@@ -11,5 +11,19 @@
 
     <artifactId>jaxrs-client-resteasy</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>org.jboss.resteasy</groupId>
+            <artifactId>resteasy-client</artifactId>
+            <version>4.5.2.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.piotrczyszczon.simpleworkset.jaxrs</groupId>
+            <artifactId>jaxrs-interface</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.piotrczyszczon.simpleworkset.jaxrs</groupId>
+            <artifactId>jaxrs-client-commons</artifactId>
+        </dependency>
+    </dependencies>
 </project>

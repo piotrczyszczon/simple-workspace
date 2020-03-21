@@ -11,5 +11,29 @@
 
     <artifactId>jaxrs-client-openfeign</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-core</artifactId>
+            <version>10.8</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-jackson</artifactId>
+            <version>10.8</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-jaxrs</artifactId>
+            <version>10.8</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.piotrczyszczon.simpleworkset.jaxrs</groupId>
+            <artifactId>jaxrs-interface</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.piotrczyszczon.simpleworkset.jaxrs</groupId>
+            <artifactId>jaxrs-client-commons</artifactId>
+        </dependency>
+    </dependencies>
 </project>
