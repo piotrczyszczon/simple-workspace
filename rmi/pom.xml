@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.github.piotrczyszczon.simpleworkset</groupId>
+    <artifactId>rmi-application</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <modules>
+        <module>rmi-client</module>
+        <module>rmi-server</module>
+        <module>rmi-interface</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.github.piotrczyszczon.simpleworkset</groupId>
+                <artifactId>rmi-interface</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>
