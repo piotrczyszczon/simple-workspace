@@ -1,0 +1,6 @@
+library\library.api\module-info.java
+library\library.api\com\github\piotrczyszczon\simpleworkspace\modularity\library\Office.java
+library\library.client\module-info.java
+library\library.client\com\github\piotrczyszczon\simpleworkspace\modularity\library\client\OfficeClient.java
+library\library.impl\module-info.java
+library\library.impl\com\github\piotrczyszczon\simpleworkspace\modularity\library\impl\OfficeImpl.java

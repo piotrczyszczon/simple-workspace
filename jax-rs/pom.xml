@@ -15,6 +15,7 @@
         <module>jaxrs-client-commons</module>
         <module>jaxrs-client-openfeign</module>
         <module>jaxrs-client-resteasy</module>
+        <module>jaxrs-client-retrofit</module>
     </modules>
 
     <dependencyManagement>

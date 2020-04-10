@@ -1,0 +1,5 @@
+# compile all modules
+javac -d outDir --module-source-path library @source_files
+
+# Run office client
+java --module-path outDir -m library.client/com.github.piotrczyszczon.simpleworkspace.modularity.library.client.OfficeClient

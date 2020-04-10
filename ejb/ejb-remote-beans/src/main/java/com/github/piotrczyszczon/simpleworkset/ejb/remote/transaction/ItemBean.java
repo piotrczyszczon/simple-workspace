@@ -8,15 +8,15 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.rmi.RemoteException;
 
-@Stateful(name = "ItemBean")
-@Remote(ItemRemote.class)
-@TransactionManagement(TransactionManagementType.CONTAINER)
+//@Stateful(name = "ItemBean")
+//@Remote(ItemRemote.class)
+//@TransactionManagement(TransactionManagementType.CONTAINER)
 public class ItemBean implements ItemRemote, SessionSynchronization
 {
-  @Resource
+  //@Resource
   private SessionContext sessionContext;
 
-  @PersistenceContext(unitName = "configuration")
+  //@PersistenceContext(unitName = "configuration")
   private EntityManager entityManager;
 
   @Override
