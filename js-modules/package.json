@@ -1,0 +1,12 @@
+{
+    "name": "js-modules-demo",
+    "version": "0.0.1",
+    "description": "JS Modules Demo app",
+    "main": "",
+    "author": "piotrczyszczon@gmail.com",
+    "type": "module",
+    "dependencies": {
+        "directory-module": "^0.0.1"
+    }
+  }
+  
